@@ -1,0 +1,130 @@
+@media screen and (min-width: 787px) {
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2error{
+    height: 30vh;
+    border-radius: 30px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error2{
+    font-size: 32px;
+}
+
+
+.content-content-verification h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content-content-verification p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+.content-verification{
+    background-color: #8ba7fc;
+    border-radius: 50px;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-content-verification{
+    text-align: center;
+}
+
+.content-content-verification a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 30px;
+    border-radius: 7px;
+    padding: 8px 10px;
+    transition: .2s ease-in-out;
+}
+
+.content-content-verification a:hover{
+    background-color: white;
+    color: #6D8DEF;
+}
+}
+@media screen and (max-width: 786px) {
+    .page2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page2error{
+        height: auto;
+        border-radius: 10px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .error2{
+        font-size: 22px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    .content-content-verification h2{
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    
+    .content-content-verification p{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .content-verification{
+        height: 60vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-content-verification{
+        text-align: center;
+    }
+    
+    .content-content-verification a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #6D8DEF;
+        font-weight: 500;
+        text-align: center;
+        border: 2px solid #6D8DEF;
+        margin-top: 30px;
+        border-radius: 7px;
+        padding: 8px 10px;
+    }
+}

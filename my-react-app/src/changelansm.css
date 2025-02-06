@@ -1,0 +1,38 @@
+.dropdown-sm{
+
+}
+.dropbtn-color-sm{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    color: #000000;
+    cursor: pointer;
+}
+.iconT-drop{
+    color: #000000;
+}
+.hideit{
+    display: none;
+}
+.dropdown-content-lan-sm{
+    display: grid;
+    grid-template-rows: auto;
+    width: fit-content;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    row-gap: 10px;
+}
+.dropdown-content-lan-sm button{
+    border: none;
+    background-color: transparent;
+    text-align: start;
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.97);
+}
