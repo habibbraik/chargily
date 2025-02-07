@@ -85,7 +85,7 @@ async function main(){
     //  console.log('Authenticated user ID:', req.user ? req.user.userId : 'No user'); // Log user ID or absence
 
      try {
-       if (!verifySignature(payload, signature, API_SECRET_KEY)) {
+       if (!verifySignature(payload, signature, process.env.API_SECRET_KEY)) {
          console.log('Signature is invalid');
          return res.sendStatus(403);
 
